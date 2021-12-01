@@ -1,0 +1,28 @@
+@media only screen and (max-width: 800px){
+    .grupoUno{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+    .destacadas__column--sm{
+        flex-wrap: wrap;
+        flex: 50%;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+
+@media only screen and (min-width: 600px){
+    .destacadas__column--sm{
+        flex-wrap: wrap;
+        flex: 100%;
+    }
+}

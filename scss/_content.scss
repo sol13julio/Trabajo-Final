@@ -1,0 +1,110 @@
+/// Nombres Grillas
+#encabezado{
+    grid-area: enc;
+}
+#menu{
+    grid-area: men;
+}
+
+#carouselExampleControls{
+    grid-area: car;
+}
+
+#contenedorUno{
+    grid-area: co1;
+}
+
+#pie{
+    grid-area: pie;
+}
+
+//grillas
+#contenedor{
+    display: grid;
+    grid-template-areas:
+    "enc enc enc"
+    "men men men"
+    "car car car"
+    "co1 co1 co1"
+    "pie pie pie";
+    grid-template-columns: 3 auto;
+    grid-template-rows: repeat(5, auto);
+    margin: 1vh;
+}
+//cerramos grillas
+
+//Destacados y Novedades
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.contenedor__tittle--color{
+    font-size: 4vh;
+    text-align: center;      
+    text-shadow: 0 0.1rem 0.4rem gray;
+    transition: all;  
+    color: linear-gradient(90deg, rgba(28,28,31,1) 0%, rgba(122,122,122,1) 52%, rgba(47,46,50,1) 100%);
+    margin-top: 5px;
+}
+
+.contenedorRow{
+    padding: 5px;
+       
+    .contenedorRow__column--padding{
+        padding: 5px;
+            
+            img{
+                margin-top: 5px;
+                box-shadow: 0 0.1rem 0.4rem gray;
+                transition: all;
+            }        
+        }
+    }
+
+
+.contenedorInfo__img--shadow{
+    background-image: url(../img/destacado1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: $w-300;
+    box-shadow: 0 0.1rem 0.4rem gray;
+    transition: all;
+    
+
+        .contenedorInfo__titulo--display{
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+            color: white;
+            text-decoration: none;
+            font-size: 3vh;
+            text-shadow: 0 0.1rem 0.4rem gray;         
+            
+             a{
+                text-decoration: none;
+                color: white;
+                        
+                    a:hover{
+                    color: gray;   
+                    }
+                }
+        }       
+    }
+
+
+.contenedorImg__imagen--shadow{
+    box-shadow: 0 0.1rem 0.4rem gray;
+    transition: all;
+    
+}
+
+//bucles
+@for $i from 1 to 3{
+    .text-#{$i}{
+        font-size: 2em *$i;
+    }
+}
