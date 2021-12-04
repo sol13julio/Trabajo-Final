@@ -26,3 +26,10 @@
         flex: 100%;
     }
 }
+
+@media only screen and (min-width: 300px){
+    .destacadas__column--sm{
+        flex-wrap: wrap;
+        flex: 100%;
+    }
+}
