@@ -102,9 +102,45 @@
     
 }
 
+// Caja Productos Img
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.card{
+    width: 33%;
+}
+
+.estiloA a{
+    text-decoration: none;
+    color: black;
+}
+
+.estiloA a:hover{
+    text-decoration: underline;
+}
+
+.estiloA .imgContainer{
+    overflow: hidden;
+}
+
+.estiloA .imgContainer img{
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.estiloA:hover .imgContainer img{
+    transform: scale(1.2);
+}
+
 //bucles
 @for $i from 1 to 3{
     .text-#{$i}{
         font-size: 2em *$i;
     }
 }
+
