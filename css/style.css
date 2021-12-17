@@ -20,11 +20,19 @@ img {
     flex: 50%; }
   .boxSocial {
     position: fixed; }
-  .contenedorPie .grupoUno .box figure a img {
+  .contenedorPie .grupoUno .box a img {
     display: none; }
   .box h2 {
     display: flex;
-    flex-direction: row; } }
+    flex-direction: row; }
+  section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; }
+  .estiloA .imgContainer img {
+    display: flex;
+    justify-content: center; } }
 
 header a img {
   width: 20vh; }
@@ -141,14 +149,14 @@ section {
   grid-gap: 50px;
   padding: 45px 0px; }
 
-.grupoUno .box figure {
+.grupoUno .box a {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.grupoUno .box figure img {
+.grupoUno .box img {
   width: 250px; }
 
 .grupoUno .box h2 {

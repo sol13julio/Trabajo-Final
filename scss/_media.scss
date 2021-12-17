@@ -14,7 +14,8 @@
     .boxSocial{
         position: fixed;
     }
-    .contenedorPie .grupoUno .box figure a img{
+
+    .contenedorPie .grupoUno .box a img{
         display: none;
     }
 
@@ -23,6 +24,18 @@
         flex-direction: row;
     }
 
+    section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
   
-}
+    .estiloA .imgContainer img{
+        display: flex;
+        justify-content: center;
+    }
 
+    
+}

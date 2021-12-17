@@ -11,8 +11,7 @@
     grid-gap: 50px;
     padding: 45px 0px;
 }
-
-.grupoUno .box figure{
+.grupoUno .box a{
     width: $w-100;
     height: $w-100;
     display: flex;
@@ -20,7 +19,7 @@
     align-items: center;
 }
 
-.grupoUno .box figure img{
+.grupoUno .box img{
     width: 250px;
 }
 
