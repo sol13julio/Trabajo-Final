@@ -32,7 +32,9 @@ img {
     gap: 20px; }
   .estiloA .imgContainer img {
     display: flex;
-    justify-content: center; } }
+    justify-content: center; }
+  .card {
+    width: 66%; } }
 
 header a img {
   width: 20vh; }
