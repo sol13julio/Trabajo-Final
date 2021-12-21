@@ -34,7 +34,12 @@ img {
     display: flex;
     justify-content: center; }
   .card {
-    width: 66%; } }
+    width: 66%; }
+  #div .box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; } }
 
 header a img {
   width: 20vh; }
