@@ -1,4 +1,4 @@
-/// Nombres Grillas
+/*Nombres Grillas*/
 #encabezado{
     grid-area: enc;
 }
@@ -18,7 +18,7 @@
     grid-area: pie;
 }
 
-//grillas
+/*grillas*/
 #contenedor{
     display: grid;
     grid-template-areas:
@@ -31,9 +31,9 @@
     grid-template-rows: repeat(5, auto);
     margin: 1vh;
 }
-//cerramos grillas
+/*cerramos grillas*/
 
-//Destacados y Novedades
+/*Destacados y Novedades*/
 
 .main{
     display: flex;
@@ -43,12 +43,11 @@
 
 
 .contenedor__tittle--color{
-    font-size: 4vh;
     text-align: center;      
-    text-shadow: 0 0.1rem 0.4rem gray;
     transition: all;  
-    color: linear-gradient(90deg, rgba(28,28,31,1) 0%, rgba(122,122,122,1) 52%, rgba(47,46,50,1) 100%);
+    color: $secondary;
     margin-top: 5px;
+    background-color: $fourth;
 }
 
 .contenedorRow{
@@ -103,7 +102,7 @@
 }
 
 
-// Caja Productos Img
+/*Caja Productos Img*/
 section{
     width: 100%;
     display: flex;
@@ -136,7 +135,7 @@ section{
     transform: scale(1.2);
 }
 
-//bucles
+/*bucles*/
 @for $i from 1 to 3{
     .text-#{$i}{
         font-size: 2em *$i;

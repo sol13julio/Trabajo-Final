@@ -18,6 +18,8 @@ img {
   .destacadas__column--sm {
     flex-wrap: wrap;
     flex: 50%; }
+  .text-1 {
+    font-size: 1em; }
   .boxSocial {
     position: fixed; }
   .contenedorPie .grupoUno .box a img {
@@ -44,6 +46,7 @@ img {
 header a img {
   width: 20vh; }
 
+/*Nombres Grillas*/
 #encabezado {
   grid-area: enc; }
 
@@ -59,6 +62,7 @@ header a img {
 #pie {
   grid-area: pie; }
 
+/*grillas*/
 #contenedor {
   display: grid;
   grid-template-areas: "enc enc enc" "men men men" "car car car" "co1 co1 co1" "pie pie pie";
@@ -66,18 +70,19 @@ header a img {
   grid-template-rows: repeat(5, auto);
   margin: 1vh; }
 
+/*cerramos grillas*/
+/*Destacados y Novedades*/
 .main {
   display: flex;
   flex-direction: column;
   justify-content: center; }
 
 .contenedor__tittle--color {
-  font-size: 4vh;
   text-align: center;
-  text-shadow: 0 0.1rem 0.4rem gray;
   transition: all;
-  color: linear-gradient(90deg, #1c1c1f 0%, #7a7a7a 52%, #2f2e32 100%);
-  margin-top: 5px; }
+  color: #c9d6df;
+  margin-top: 5px;
+  background-color: #1e2022; }
 
 .contenedorRow {
   padding: 5px; }
@@ -113,6 +118,7 @@ header a img {
   box-shadow: 0 0.1rem 0.4rem gray;
   transition: all; }
 
+/*Caja Productos Img*/
 section {
   width: 100%;
   display: flex;
@@ -138,6 +144,7 @@ section {
 .estiloA:hover .imgContainer img {
   transform: scale(1.2); }
 
+/*bucles*/
 .text-1 {
   font-size: 2em; }
 
