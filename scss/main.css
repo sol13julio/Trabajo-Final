@@ -22,7 +22,7 @@ img {
     padding: 35px 0px !important;
   }
   .card {
-    width: 67%;
+    width: 67% !important;
   }
   .destacadas__column--sm {
     -ms-flex-wrap: wrap;
