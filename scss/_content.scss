@@ -68,6 +68,7 @@
 .contenedorInfo__img--shadow{
     background-image: url(../img/destacado1.webp);
     background-size: cover;
+    padding: 10px;
     width: 100%;
     height: $w-300;
     box-shadow: 0 0.1rem 0.4rem gray;
@@ -96,9 +97,7 @@
 
 
 .contenedorImg__imagen--shadow{
-    box-shadow: 0 0.1rem 0.4rem gray;
-    transition: all;
-    
+    padding: 5px;
 }
 
 
@@ -142,3 +141,29 @@ section{
     }
 }
 
+//error 404//
+
+.containerError{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+        .containerError img{
+            width: 50%;
+                .containerError img h1{
+                    color: honeydew;
+                    font-size: 20px;
+                    padding: 20px;
+                }
+        }
+}
+
+.containerBoton{
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: blue;
+    color: whitesmoke;
+}
